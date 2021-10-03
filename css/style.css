@@ -84,4 +84,83 @@ h1, h2, h3, h4, h5, h6 {
 .header__link:hover {
   border-bottom: 1px solid #00B2A0;
 }
+
+.title {
+  letter-spacing: 0.6px;
+  color: #01353E;
+  position: relative;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  font-family: Raleway;
+}
+
+.title::after {
+  content: url("../img/arrow-about.svg");
+  position: absolute;
+  top: 15px;
+}
+
+.about__title {
+  margin: 200px 0 96px 0;
+  text-align: center;
+  font-style: normal;
+}
+
+.about__inner {
+  display: flex;
+  margin-bottom: 200px;
+  justify-content: space-between;
+}
+
+.about__text {
+  margin-bottom: 30px;
+  letter-spacing: 0.6px;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #242121;
+  width: 480px;
+}
+
+.about__text:nth-child(6) {
+  color: red;
+}
+
+.school__title {
+  margin: 200px 0 100px 0;
+  text-align: center;
+}
+
+.school__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 102px;
+}
+
+.school__item-title {
+  text-align: center;
+  position: relative;
+  letter-spacing: 0.6px;
+  font-family: Roboto Condensed;
+  margin: 0;
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #242121;
+  line-height: 18px;
+}
+
+.school__item-text {
+  width: 350px;
+  height: 68px;
+  letter-spacing: 0.6px;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+}
 /*# sourceMappingURL=style.css.map */
